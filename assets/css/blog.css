@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header{
+    border-bottom: 3px double black;
+    padding: 50px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+div{
+    border: 3px dashed black;
+    padding: 20px 0;
+    margin:35px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-self: center;
+    width: 75%;
+    height: auto;
+    background-color: greenyellow;
+}
+h2{
+    background-color: pink;
+    margin-top: -45px;
+    margin-right: -20px;
+    margin-bottom: auto;
+    padding: 3px;
+    border: 2px solid black;
+}
+footer{
+    margin-left: -30px;
+    font-size: large;
+    font-style: italic;
+    margin-top: auto;
+    margin-bottom: -35px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: end;
+    background-color: pink;
+    padding: 3px;
+    border: 2px solid black;
+}
+button{
+    margin-top: -30px;
+    font-size: 25px;
+}

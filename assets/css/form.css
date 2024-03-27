@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header{
+    border-bottom: 3px double black;
+    padding: 50px;
+}
+.WOYM{
+    font-size: xx-large;
+    padding-bottom: 50px;
+}
+.body{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 70%;
+}
+
+.toggle{
+    font-display: flex;
+    font-size: 40px;
+    position: static;
+    padding-left: 95%;
+}
+
+.imgsec{
+    
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 50%;
+    border-right: 3px double black;
+}
+
+.leftimg{
+    width: 300px;
+    height: 300px;
+    border: 7px double black;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.formsec{
+    padding: 50px 0;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+   width: 50%;
+   
+}
+
+#comment{
+    text-align: start;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: inherit;
+}
+form{
+    display: flex;
+    flex-direction: column ;
+    text-overflow: inherit;
+}
+label{
+   
+    font-weight: bolder;
+    text-decoration: underline;
+}
+input{
+    font-style: oblique;
+    padding: 5px;
+}
+#submitbt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bolder;
+}
