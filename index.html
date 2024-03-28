@@ -8,7 +8,10 @@
 
 <body>
     <header>
-        <nav class="toggle"> ☀️ </nav>
+        <h1>
+            Blog Central!! What is on your mind??
+        </h1>
+        <button class="toggle" onclick="toggle()"> ☀️ </nav>
     </header>    
 <section class="body">
     <aside class="imgsec">
@@ -22,13 +25,16 @@
         
         <form action="./blog.html">
             <label for="username"> User Name</label><br>
-            <input type="text" id="username" name="username" value="USER NAME"><br>
+            <input type="text" id="username" placeholder="Enter Name" value=""><br>
             <label for="title"> Title</label><br>
-            <input type="text" id="title" name="title" value="TITLE"><br>
+            <input type="text" id="title" placeholder="Your Title" value=""><br>
             <label for="thoughts"> Your Thoughts</label><br>
-            <input type="text" id="comment" name="thoughts" value=""> <br>
+            <input type="text" id="comment" placeholder="THOUGHTS?" value=""> <br>
             <input type="submit" id="submitbt" value="SUBMIT">
         </form>
+        <button type="button" id="seeposts" onclick="">
+            SEE ALL POSTS
+        </button>
     </section>
 </section>
 <script src="./assets/js/form.js"></script>

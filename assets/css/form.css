@@ -8,11 +8,16 @@ header{
     border-bottom: 3px double black;
     padding: 50px;
 }
+h1{
+    display: flex;
+    justify-content: center;
+}
 .WOYM{
     font-size: xx-large;
     padding-bottom: 50px;
 }
-.body{
+.body{ 
+    
     display: flex;
     align-items: start;
     justify-content: center;
@@ -20,10 +25,11 @@ header{
 }
 
 .toggle{
+    margin-top: -37px;
     font-display: flex;
     font-size: 40px;
     position: static;
-    padding-left: 95%;
+    
 }
 
 .imgsec{
@@ -87,3 +93,7 @@ input{
     justify-content: center;
     font-weight: bolder;
 }
+.dark-mode {
+    background-color: black;
+    color: white;
+  }

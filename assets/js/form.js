@@ -31,3 +31,12 @@ submitbt.addEventListener('click', function (event) {
     localStorage.setItem('blogPosts', JSON.stringify(blogPosts))
  window.location.href = "blog.html"
 })
+seeposts.addEventListener('click', function (event){
+    window.location.href = "blog.html"
+    });
+
+    
+function toggle() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+};

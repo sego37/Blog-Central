@@ -49,3 +49,14 @@ button{
     margin-top: -30px;
     font-size: 25px;
 }
+.toggle{
+    margin-top: -40px;
+    font-display: flex;
+    font-size: 40px;
+    position: static;
+    
+}
+.dark-mode{
+    background-color: black;
+    color: white;
+};
