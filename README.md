@@ -12,6 +12,7 @@
 
 ## URL
 
+https://sego37.github.io/Blog-Central/
 
 ## SCREEN SHOTS 
 ![Screenshot 2024-03-28 at 6 02 33 PM](https://github.com/sego37/Blog-Central/assets/63138641/d67d09e8-7625-4cef-87cc-29a093f598f8)
